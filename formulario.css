@@ -1,0 +1,73 @@
+/* --- SECCIÓN FORMULARIO --- */
+.seccion-formulario {
+    padding: 50px 20px;
+    background-color: white;
+  }
+  
+  .div-gral-formu {
+    max-width: 500px; /* Formulario más angosto para que se vea centrado y ordenado */
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid beige;
+    border-radius: 12px;
+    background-color: bisque;
+  }
+  
+  .campo {
+    margin-bottom: 20px;
+  }
+  
+  .campo label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: black;
+  }
+  
+  .campo input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid grey;
+    border-radius: 6px;
+  }
+  
+  .lista-checkbox,
+  .lista-radio {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .lista-checkbox li,
+  .lista-radio li {
+    margin-bottom: 8px;
+  }
+  
+  .lista-checkbox label,
+  .lista-radio label {
+    font-weight: normal; /* Quita la negrita en las opciones internas */
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+  }
+  
+  /* Botón de Enviar / Crear Cuenta */
+  button[type="submit"] {
+    width: 100%;
+    background-color: blueviolet; /* Color morado de la app */
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: blue; /* Oscurece un poco al pasar el mouse */
+  }
+  
