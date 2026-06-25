@@ -9,9 +9,9 @@ Facilitar la comunicación en tiempo real mediante tecnologías de accesibilidad
 
 Autores
 
-Arthur Enrique Calderón Reyna	      |  U20251C062
-Leonardo Alexander Ayala Serna	    |  U20241A885
-Josue Vargas Maguiña	              |  U202424704
+| Arthur Enrique Calderón Reyna	      |  U20251C062 |
+| Leonardo Alexander Ayala Serna	    |  U20241A885 |
+| Josue Vargas Maguiña	              |  U202424704 |
 
 Segmentos Objetivo
 1. Personas con discapacidad sensorial y del lenguaje
