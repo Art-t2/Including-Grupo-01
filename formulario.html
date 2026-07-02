@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section class="seccion-formulario">
+      <div class="div-gral-form">
+        <form class="formulario">
+          <!--CAJA TEXTO: INPUT TEXT-->
+          <div class="campo">
+            <label for="nombres">Nombres completos: </label>
+            <input
+              type="text"
+              id="nombres"
+              name="nombres"
+              placeholder="ingrese sus nombres"
+            />
+          </div>
+
+          <!--LISTA DESPLEGABLES: OPTION/SELECT-->
+          <div class="campo">
+            <label for="sedes">Sede: </label>
+            <select id="sedes" name="sede">
+              <option value="">Seleccione una sede:</option>
+              <option value="SM">San Miguel</option>
+              <option value="MO">Monterrico</option>
+              <option value="SI">San Isidro</option>
+              <option value="VI">Villa</option>
+            </select>
+          </div>
+
+          <!--CHECKBOX-->
+          <div class="campo">
+            <label> Preferencias:</label>
+            <ul class="lista-checkbox">
+              <li>
+                <label
+                  ><input
+                    type="checkbox"
+                    name="Preferencias"
+                    value="Tecnologia"
+                  />Tecnologia</label
+                >
+              </li>
+              <li>
+                <label
+                  ><input
+                    type="checkbox"
+                    name="Preferencias"
+                    value="Finanzas"
+                  />Finanzas</label
+                >
+              </li>
+              <li>
+                <label
+                  ><input
+                    type="checkbox"
+                    name="Preferencias"
+                    value="Negocios"
+                  />Negocios</label
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!--RADIO BUTTON-->
+          <div class="campo">
+            <label>Sexo: </label>
+            <ul class="lista-radio">
+              <li>
+                <label
+                  ><input
+                    type="radio"
+                    name="sexo"
+                    value="Masculino"
+                  />Masculino</label
+                >
+              </li>
+              <li>
+                <label
+                  ><input
+                    type="radio"
+                    name="sexo"
+                    value="Femenino"
+                  />Femenino</label
+                >
+              </li>
+              <li>
+                <label
+                  ><input type="radio" name="sexo" value="Otros" />Otros</label
+                >
+              </li>
+            </ul>
+          </div>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
+</body>
+</html>
